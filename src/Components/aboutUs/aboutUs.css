@@ -1,0 +1,42 @@
+.sectionAbout{
+  padding: 88px 0px;
+  width: 100%;
+}
+.bordeNaranja{
+  background-color: var(--main-bg-color);
+  width: 24px;
+  height: auto;
+}
+.imageabout{
+  width: 376px;
+  margin-right: 176px;
+}
+.titleAbout{
+  color: var(--text-title-color);
+  font-size: 45px;
+  text-align: left;
+  font-weight: 600;
+}
+.subtitleAbout{
+  color: var( --main-bg-color);
+  font-size: 45px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.text-lorem{
+  font-size: 16px;
+  color: var(--text-title-color);
+  width: 471px;
+  text-align: left;
+}
+
+.btn-body{
+	margin-top: 20px;
+  font-size: 18px;
+	background-color: var(--main-bg-color);
+	color: white;
+	border-radius: 25px;
+	opacity: 1;
+	padding: 10px 30px;
+}
