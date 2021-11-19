@@ -1,23 +1,49 @@
 import React from 'react'
 import '../Services/services.css'
+import img1 from '../../Images/Icon awesome-globe-americas.svg'
+import img2 from '../../Images/Icon awesome-cloud-upload-alt.svg'
+import img3 from '../../Images/Icon awesome-headset.svg'
+import img4 from '../../Images/Icon awesome-user-friends.svg'
 
 function Services() {
   return (
     <>
-      <section className="sectionAbout row">
-        <div className="col-md-6 d-flex justify-content-between">
-          <div className="bordeNaranja"></div>
-          <div>
-            <img className="imageabout" ></img>
+      <section className="sectionServices d-flex flex-column justify-content-center">
+        <h2 className="servicesTitle">Services</h2>
+        <div className="w-100 divcontenedor">
+          <p className="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,</p>
+        </div>
+        <div className="d-flex justify-content-center">
+          <div className="row  divServices">
+            <div className="col-md-3  flex-column">
+              <div className="d-flex justify-content-center">
+                <img src={img1} className="icons"></img>
+              </div>
+
+              <p className="subtext-icon">Stet clita kasd gubergren</p>
+            </div>
+            <div className="col-md-3 flex-column">
+              <div className="d-flex justify-content-center">
+                <img src={img2} className="icons"></img>
+              </div>
+              <p className="subtext-icon">At vero eos et accusam</p>
+            </div>
+            <div className="col-md-3 flex-column">
+              <div className="d-flex justify-content-center">
+                <img src={img3} className="icons"></img>
+              </div>
+              <p className="subtext-icon">Sed ut perspiciatis unde</p>
+            </div>
+            <div className="col-md-3 flex-column">
+              <div className="d-flex justify-content-center">
+                <img src={img4} className="icons"></img>
+              </div>
+              <p className="subtext-icon">Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
         </div>
 
-        <div className="col-md-6 ">
-          <h2 className="titleAbout">About us</h2>
-          <p className="subtitleAbout">We Help Businesses</p>
-          <p className="text-lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-          <button type="button" className="btn btn-body btn-lg">More info</button>
-        </div>
+
       </section>
     </>
   )

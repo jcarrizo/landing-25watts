@@ -1,0 +1,52 @@
+.sectionServices{
+  padding: 40px 0px;
+  width: 100%;
+  background-color: var(	--background-1);
+  
+}
+
+
+.servicesTitle{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: var(	--text-title-color);
+}
+
+.icons{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.sub-text{
+  display: flex;
+  justify-content: center;
+  width:776px ;
+  text-align: center;
+  letter-spacing: 0.22px;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.divcontenedor{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.divServices{
+  display: flex;
+margin: 50px 50px;
+}
+
+.subtext-icon{
+  font-size: 21px;
+  text-align: center;
+  color: var(--text-title-color);
+  width: 206px;;
+  letter-spacing: 0.29px;
+  opacity: 1;
+  font-weight: 600;
+}

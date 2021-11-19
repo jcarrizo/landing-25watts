@@ -1,9 +1,8 @@
 :root {
   --main-bg-color: #E0752F;
 	--text-title-color: #343434;
+	--background-1: #F2F4F1;
 }
-
-
 
 header {
   position: absolute;
