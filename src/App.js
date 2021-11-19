@@ -5,6 +5,7 @@ import image3 from "../src/Images/slide3-background@2x.png"
 import logo from "../src/Images/logo_25w.svg"
 import AboutUs from './Components/aboutUs/aboutUs';
 import Services from './Components/Services/services';
+import Products from './Components/Products/products';
 function App() {
 
   return (
@@ -82,6 +83,7 @@ function App() {
       </section>
       <AboutUs></AboutUs>
       <Services></Services>
+      <Products></Products>
 
     </>
   );
