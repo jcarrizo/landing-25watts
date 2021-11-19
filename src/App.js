@@ -6,6 +6,7 @@ import logo from "../src/Images/logo_25w.svg"
 import AboutUs from './Components/aboutUs/aboutUs';
 import Services from './Components/Services/services';
 import Products from './Components/Products/products';
+import Details from './Components/Details/details';
 function App() {
 
   return (
@@ -84,7 +85,7 @@ function App() {
       <AboutUs></AboutUs>
       <Services></Services>
       <Products></Products>
-
+      <Details></Details>
     </>
   );
 }
