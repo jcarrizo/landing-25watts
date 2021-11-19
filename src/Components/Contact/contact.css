@@ -1,0 +1,36 @@
+.sectionContact{
+  padding: 100px 0px;
+  background-color: var(	--background-1)0% 0% no-repeat padding-box;;
+  background: #F2F4F1 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control{
+  margin-bottom: 30px;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 0px solid transparent;
+  background-color: transparent;
+}
+.form-control:focus{
+  border-bottom: 2px solid #ff5b1d;
+  background-color: transparent;
+  color: #ff5b1d;
+}
+
+.columna1{
+  width: 50%;
+}
+
+.columna2{
+  width: 50%;
+}
+
+
+#floatingTextarea2{
+  height: 150px
+}
+.imageContact{
+width: 594px;;
+}
