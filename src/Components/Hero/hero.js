@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import axios from 'axios'
 import '../Hero/hero.css'
 import image from "../../Images/slide1-background@2x.png"
 import image2 from "../../Images/slide2-background@2x.png"
@@ -6,6 +7,18 @@ import image3 from "../../Images/slide3-background@2x.png"
 import logo from "../../Images/logo_25w.svg"
 
 function Hero() {
+
+
+  useEffect(() => {
+    axios.get('http://localhost:3000/images')
+      .then(function (response) {
+        console.log(response.data);
+      }
+      )
+  }, [])
+
+
+
   return (<>
     <header className="d-flex justify-content-center row py-3 mb-4 fixed-top">
       <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none col-md-6">
