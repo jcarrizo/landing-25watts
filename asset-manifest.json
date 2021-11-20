@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/landing-25watts/static/css/main.fdc6dcbd.chunk.css",
-    "main.js": "/landing-25watts/static/js/main.d5807e6a.chunk.js",
-    "main.js.map": "/landing-25watts/static/js/main.d5807e6a.chunk.js.map",
+    "main.js": "/landing-25watts/static/js/main.b3b60a74.chunk.js",
+    "main.js.map": "/landing-25watts/static/js/main.b3b60a74.chunk.js.map",
     "runtime-main.js": "/landing-25watts/static/js/runtime-main.54668331.js",
     "runtime-main.js.map": "/landing-25watts/static/js/runtime-main.54668331.js.map",
-    "static/js/2.d4da7d87.chunk.js": "/landing-25watts/static/js/2.d4da7d87.chunk.js",
-    "static/js/2.d4da7d87.chunk.js.map": "/landing-25watts/static/js/2.d4da7d87.chunk.js.map",
+    "static/js/2.3353c901.chunk.js": "/landing-25watts/static/js/2.3353c901.chunk.js",
+    "static/js/2.3353c901.chunk.js.map": "/landing-25watts/static/js/2.3353c901.chunk.js.map",
     "index.html": "/landing-25watts/index.html",
     "static/css/main.fdc6dcbd.chunk.css.map": "/landing-25watts/static/css/main.fdc6dcbd.chunk.css.map",
-    "static/js/2.d4da7d87.chunk.js.LICENSE.txt": "/landing-25watts/static/js/2.d4da7d87.chunk.js.LICENSE.txt",
+    "static/js/2.3353c901.chunk.js.LICENSE.txt": "/landing-25watts/static/js/2.3353c901.chunk.js.LICENSE.txt",
     "static/media/Icon awesome-anchor.614aae7e.svg": "/landing-25watts/static/media/Icon awesome-anchor.614aae7e.svg",
     "static/media/Icon awesome-bandcamp.70f501ea.svg": "/landing-25watts/static/media/Icon awesome-bandcamp.70f501ea.svg",
     "static/media/Icon awesome-bell.521ebfeb.svg": "/landing-25watts/static/media/Icon awesome-bell.521ebfeb.svg",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54668331.js",
-    "static/js/2.d4da7d87.chunk.js",
+    "static/js/2.3353c901.chunk.js",
     "static/css/main.fdc6dcbd.chunk.css",
-    "static/js/main.d5807e6a.chunk.js"
+    "static/js/main.b3b60a74.chunk.js"
   ]
 }
