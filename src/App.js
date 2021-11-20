@@ -8,6 +8,7 @@ import Services from './Components/Services/services';
 import Products from './Components/Products/products';
 import Details from './Components/Details/details';
 import Contact from './Components/Contact/contact';
+import Footer from './Components/Footer/footer';
 function App() {
 
   return (
@@ -88,6 +89,7 @@ function App() {
       <Products></Products>
       <Details></Details>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

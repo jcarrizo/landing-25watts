@@ -1,0 +1,23 @@
+.sectionFooter{
+  display: flex;
+  background-color: var(--text-title-color);
+  padding: 40px 0px;
+  align-items: flex-end;
+}
+
+.logo-footer{
+  width: 129px;
+}
+
+.text-footer{
+  color: var(  --main-bg-color);
+}
+
+.text-footer-menu{
+  color: white;
+}
+
+.text-follow{
+  font-size: 21px;
+  color: white;
+}
