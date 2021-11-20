@@ -3,21 +3,7 @@ import axios from 'axios'
 import imagenAbout from '../../Images/image-1@2x.png'
 import "../aboutUs/aboutUs.css"
 
-function AboutUs() {
-
-  const [about, setabout] = useState([])
-
-  useEffect(() => {
-    axios.get('http://localhost:3000/about')
-      .then(function (response) {
-        console.log(response.data);
-        setabout(response.data)
-      }
-      )
-  }, [])
-
-
-
+function AboutUs({ about }) {
   return (
     <>
       <section className="sectionAbout row">

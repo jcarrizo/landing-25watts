@@ -10,20 +10,7 @@ import logo from "../../Images/logo_25w.svg"
 
 // json-server --watch db.json
 
-function Hero() {
-
-
-  const [images, setImages] = useState([])
-
-  useEffect(() => {
-    axios.get('http://localhost:3000/hero')
-      .then(function (response) {
-        console.log(response.data);
-        setImages(response.data)
-      }
-      )
-  }, [])
-
+function Hero({ hero }) {
 
   // The slider will fit any size container, lets go full screen...
   const AppStyles = styled.main`
@@ -31,9 +18,6 @@ function Hero() {
   width: 100%;
   object-fit: cover;
 `
-
-
-
   return (<>
     <div className="desplegableMenu fixed-top ">
       <div class="collapse " id="navbarToggleExternalContent">
@@ -68,7 +52,7 @@ function Hero() {
     <section>
       <AppStyles>
         <Slider>
-          {images.map(({ url, title, text1, text2 }, index) => (
+          {hero.map(({ url, title, text1, text2 }, index) => (
             <>
               <img src={url} className="image-slider w-100" key={index} alt={title} ></img>
               <div className="slider-text">

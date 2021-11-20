@@ -33,6 +33,35 @@
       "textLarge":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
     }
 
+  ],
+  "services" : [
+    {
+      "title": "image-1-2x",
+      "textTitle": "Services",
+      "textLarge":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+      "urlworld":
+      "https://i.ibb.co/YkDPy3M/Icon-awesome-globe-americas-2x.png",
+      "textworld": "Stet clita kasd gubergren",
+      "urlup":
+      "https://i.ibb.co/pbVTxTd/Icon-awesome-cloud-upload-alt-2x.png",
+      "textup": "At vero eos et accusam",
+      "urlphone":
+      "https://i.ibb.co/s5WvWXP/Icon-awesome-headset-2x.png",
+      "textphone": "Sed ut perspiciatis unde",
+      "urlpeople":
+      "https://i.ibb.co/107Rrqc/Icon-awesome-user-friends-2x.png",
+      "textpeople": "Lorem ipsum dolor sit amet"
+    }
+
+  ],
+  "products" : [
+    {
+      "textTitle": "Products",
+      "textSubTitle": "In eget tortor tempor mollis purus",
+      "textLarge":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+
+    }
+
   ]
 
 }
