@@ -48,3 +48,28 @@ margin: 50px 50px;
   opacity: 1;
   font-weight: 600;
 }
+
+@media (max-width: 600px) {
+
+  .sub-text{
+
+    width: 335px ;
+    text-align: center;
+    letter-spacing: 0.22px;
+    opacity: 1;
+    margin-bottom: 30px;
+  }
+
+  .subtext-icon{
+    font-size: 21px;
+    text-align: center;
+    color: var(--text-title-color);
+    width: 100%;;
+    letter-spacing: 0.29px;
+    opacity: 1;
+    font-weight: 600;
+  }
+  
+
+  
+}
