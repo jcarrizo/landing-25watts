@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/landing-25watts/static/css/main.dec4f225.chunk.css",
-    "main.js": "/landing-25watts/static/js/main.51432f3f.chunk.js",
-    "main.js.map": "/landing-25watts/static/js/main.51432f3f.chunk.js.map",
+    "main.css": "/landing-25watts/static/css/main.a5b7f588.chunk.css",
+    "main.js": "/landing-25watts/static/js/main.1dfe5579.chunk.js",
+    "main.js.map": "/landing-25watts/static/js/main.1dfe5579.chunk.js.map",
     "runtime-main.js": "/landing-25watts/static/js/runtime-main.54668331.js",
     "runtime-main.js.map": "/landing-25watts/static/js/runtime-main.54668331.js.map",
     "static/js/2.64dad3b8.chunk.js": "/landing-25watts/static/js/2.64dad3b8.chunk.js",
     "static/js/2.64dad3b8.chunk.js.map": "/landing-25watts/static/js/2.64dad3b8.chunk.js.map",
     "index.html": "/landing-25watts/index.html",
-    "static/css/main.dec4f225.chunk.css.map": "/landing-25watts/static/css/main.dec4f225.chunk.css.map",
+    "static/css/main.a5b7f588.chunk.css.map": "/landing-25watts/static/css/main.a5b7f588.chunk.css.map",
     "static/js/2.64dad3b8.chunk.js.LICENSE.txt": "/landing-25watts/static/js/2.64dad3b8.chunk.js.LICENSE.txt",
     "static/media/Icon awesome-anchor.614aae7e.svg": "/landing-25watts/static/media/Icon awesome-anchor.614aae7e.svg",
     "static/media/Icon awesome-bandcamp.70f501ea.svg": "/landing-25watts/static/media/Icon awesome-bandcamp.70f501ea.svg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.54668331.js",
     "static/js/2.64dad3b8.chunk.js",
-    "static/css/main.dec4f225.chunk.css",
-    "static/js/main.51432f3f.chunk.js"
+    "static/css/main.a5b7f588.chunk.css",
+    "static/js/main.1dfe5579.chunk.js"
   ]
 }
