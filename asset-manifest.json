@@ -1,42 +1,23 @@
 {
   "files": {
-    "main.css": "/landing-25watts/static/css/main.fdc6dcbd.chunk.css",
-    "main.js": "/landing-25watts/static/js/main.b3b60a74.chunk.js",
-    "main.js.map": "/landing-25watts/static/js/main.b3b60a74.chunk.js.map",
+    "main.css": "/landing-25watts/static/css/main.d7a0198f.chunk.css",
+    "main.js": "/landing-25watts/static/js/main.8983b4ba.chunk.js",
+    "main.js.map": "/landing-25watts/static/js/main.8983b4ba.chunk.js.map",
     "runtime-main.js": "/landing-25watts/static/js/runtime-main.54668331.js",
     "runtime-main.js.map": "/landing-25watts/static/js/runtime-main.54668331.js.map",
-    "static/js/2.3353c901.chunk.js": "/landing-25watts/static/js/2.3353c901.chunk.js",
-    "static/js/2.3353c901.chunk.js.map": "/landing-25watts/static/js/2.3353c901.chunk.js.map",
+    "static/js/2.3d4ec717.chunk.js": "/landing-25watts/static/js/2.3d4ec717.chunk.js",
+    "static/js/2.3d4ec717.chunk.js.map": "/landing-25watts/static/js/2.3d4ec717.chunk.js.map",
     "index.html": "/landing-25watts/index.html",
-    "static/css/main.fdc6dcbd.chunk.css.map": "/landing-25watts/static/css/main.fdc6dcbd.chunk.css.map",
-    "static/js/2.3353c901.chunk.js.LICENSE.txt": "/landing-25watts/static/js/2.3353c901.chunk.js.LICENSE.txt",
-    "static/media/Icon awesome-anchor.614aae7e.svg": "/landing-25watts/static/media/Icon awesome-anchor.614aae7e.svg",
-    "static/media/Icon awesome-bandcamp.70f501ea.svg": "/landing-25watts/static/media/Icon awesome-bandcamp.70f501ea.svg",
-    "static/media/Icon awesome-bell.521ebfeb.svg": "/landing-25watts/static/media/Icon awesome-bell.521ebfeb.svg",
-    "static/media/Icon awesome-bookmark.f11edb2f.svg": "/landing-25watts/static/media/Icon awesome-bookmark.f11edb2f.svg",
-    "static/media/Icon awesome-box-open.7edf42dc.svg": "/landing-25watts/static/media/Icon awesome-box-open.7edf42dc.svg",
-    "static/media/Icon awesome-brush.4020b443.svg": "/landing-25watts/static/media/Icon awesome-brush.4020b443.svg",
+    "static/css/main.d7a0198f.chunk.css.map": "/landing-25watts/static/css/main.d7a0198f.chunk.css.map",
+    "static/js/2.3d4ec717.chunk.js.LICENSE.txt": "/landing-25watts/static/js/2.3d4ec717.chunk.js.LICENSE.txt",
     "static/media/products.css": "/landing-25watts/static/media/Icon awesome-chevron-right.33d726b1.svg",
-    "static/media/Icon awesome-cloud-upload-alt.e18662f3.svg": "/landing-25watts/static/media/Icon awesome-cloud-upload-alt.e18662f3.svg",
-    "static/media/Icon awesome-globe-americas.3ad7d1c0.svg": "/landing-25watts/static/media/Icon awesome-globe-americas.3ad7d1c0.svg",
-    "static/media/Icon awesome-headset.4282e2a0.svg": "/landing-25watts/static/media/Icon awesome-headset.4282e2a0.svg",
-    "static/media/Icon awesome-linkedin-in.7574cfa6.svg": "/landing-25watts/static/media/Icon awesome-linkedin-in.7574cfa6.svg",
-    "static/media/Icon awesome-user-friends.c88b66bc.svg": "/landing-25watts/static/media/Icon awesome-user-friends.c88b66bc.svg",
-    "static/media/Icon ionic-logo-facebook.1609042a.svg": "/landing-25watts/static/media/Icon ionic-logo-facebook.1609042a.svg",
-    "static/media/Icon simple-instagram.5fcf71a1.svg": "/landing-25watts/static/media/Icon simple-instagram.5fcf71a1.svg",
-    "static/media/Icon simple-twitter.a832f90e.svg": "/landing-25watts/static/media/Icon simple-twitter.a832f90e.svg",
-    "static/media/Icon simple-youtube.fc0bb3f2.svg": "/landing-25watts/static/media/Icon simple-youtube.fc0bb3f2.svg",
-    "static/media/image-1@2x.0f2b7daa.png": "/landing-25watts/static/media/image-1@2x.0f2b7daa.png",
     "static/media/image@2x.b57a1333.png": "/landing-25watts/static/media/image@2x.b57a1333.png",
-    "static/media/logo_25w.03f77dea.svg": "/landing-25watts/static/media/logo_25w.03f77dea.svg",
-    "static/media/slide1-background@2x.894d2fc5.png": "/landing-25watts/static/media/slide1-background@2x.894d2fc5.png",
-    "static/media/slide2-background@2x.a02d73ed.png": "/landing-25watts/static/media/slide2-background@2x.a02d73ed.png",
-    "static/media/slide3-background@2x.f1ae0c26.png": "/landing-25watts/static/media/slide3-background@2x.f1ae0c26.png"
+    "static/media/logo_25w.03f77dea.svg": "/landing-25watts/static/media/logo_25w.03f77dea.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.54668331.js",
-    "static/js/2.3353c901.chunk.js",
-    "static/css/main.fdc6dcbd.chunk.css",
-    "static/js/main.b3b60a74.chunk.js"
+    "static/js/2.3d4ec717.chunk.js",
+    "static/css/main.d7a0198f.chunk.css",
+    "static/js/main.8983b4ba.chunk.js"
   ]
 }
