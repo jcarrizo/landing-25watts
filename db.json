@@ -5,7 +5,8 @@
       "url":
         "https://i.ibb.co/9hpHLXs/slide1-background-2x.png",
       "text1": "Sed ut perspiciatis",
-      "text2": "unde omnis iste natus"
+      "text2": "unde omnis iste natus",
+      "logo":"https://i.ibb.co/yqvRLPL/logo-25w-2x.png"
     },
     {
       "title": "Nature Image1",
@@ -89,22 +90,12 @@
 
   "footer" : [
     {
-      "textTitle": "More details",
-      "textSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem.",
-      "urlanchor":
-      "https://i.ibb.co/vBZ3BCH/Icon-awesome-anchor-2x.png",
-      "texticon": "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper",
-      "urlbook":
-      "https://i.ibb.co/FV1W3PC/Icon-awesome-bookmark-2x.png",
-      "urlbrush":
-      "https://i.ibb.co/XjwHRz7/Icon-awesome-brush-2x.png",
-      "urlbell":
-      "https://i.ibb.co/S3LSy4T/Icon-awesome-bell-2x.png",
-      "urlbandcamp":
-      "https://i.ibb.co/z6Gc1w1/Icon-awesome-bandcamp-2x.png",
-      "urlbox":
-      "https://i.ibb.co/zxsSZwS/Icon-awesome-box-open-2x.png"
-
+     "logo":"https://i.ibb.co/yqvRLPL/logo-25w-2x.png",
+      "linkedin":"https://i.ibb.co/mBqHCWH/Icon-awesome-linkedin-in-2x.png",
+      "facebook":"https://i.ibb.co/dcJXPGG/Icon-ionic-logo-facebook-2x.png",
+      "instagram":"https://i.ibb.co/drkq4Xs/Icon-simple-instagram-2x.png",
+      "twitter":"https://i.ibb.co/VTYwwZF/Icon-simple-twitter-2x.png",
+      "youtube":"https://i.ibb.co/FBHxgFP/Icon-simple-youtube-2x.png"
     }
   ]
 
