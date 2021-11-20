@@ -1,19 +1,36 @@
 {
-  "images" : [
+  "hero" : [
     {
       "title": "Nature Image1",
       "url":
-        "https://i.ibb.co/9hpHLXs/slide1-background-2x.png"
+        "https://i.ibb.co/9hpHLXs/slide1-background-2x.png",
+      "text1": "Sed ut perspiciatis",
+      "text2": "unde omnis iste natus"
     },
     {
       "title": "Nature Image1",
       "url":
-        "https://i.ibb.co/b2zY24j/slide2-background-2x.png"
+        "https://i.ibb.co/b2zY24j/slide2-background-2x.png",
+      "text1": "Proin elementum",
+      "text2": "massa et felis"
     },
     {
       "title": "Nature Image1",
       "url":
-        "https://i.ibb.co/JW1RcP2/slide3-background-2x.png"
+        "https://i.ibb.co/JW1RcP2/slide3-background-2x.png",
+      "text1": "Nulla rhoncus",
+      "text2": "vulputate congue"
+    }
+
+  ],
+  "about" : [
+    {
+      "title": "image-1-2x",
+      "url":
+        "https://i.ibb.co/G7mdHGJ/image-1-2x.png",
+      "textTitle": "About us",
+      "textSubTitle": "We Help Businesses",
+      "textLarge":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
     }
 
   ]

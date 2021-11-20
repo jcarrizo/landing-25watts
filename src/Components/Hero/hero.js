@@ -16,7 +16,7 @@ function Hero() {
   const [images, setImages] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:3000/images')
+    axios.get('http://localhost:3000/hero')
       .then(function (response) {
         console.log(response.data);
         setImages(response.data)
@@ -68,12 +68,12 @@ function Hero() {
     <section>
       <AppStyles>
         <Slider>
-          {images.map(({ url, title }, index) => (
+          {images.map(({ url, title, text1, text2 }, index) => (
             <>
               <img src={url} className="image-slider w-100" key={index} alt={title} ></img>
               <div className="slider-text">
-                <h3 className="fontSlider">Sed ut perspiciatis</h3>
-                <h3 className="fontSlider2">unde omnis iste natus</h3>
+                <h3 className="fontSlider">{text1}</h3>
+                <h3 className="fontSlider2">{text2}</h3>
                 <p className="subfontSlider">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
                 <button type="button" className="btn btn-hero btn-lg">Read more</button>
               </div>

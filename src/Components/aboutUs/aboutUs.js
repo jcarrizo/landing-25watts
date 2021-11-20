@@ -1,24 +1,47 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 import imagenAbout from '../../Images/image-1@2x.png'
 import "../aboutUs/aboutUs.css"
 
 function AboutUs() {
+
+  const [about, setabout] = useState([])
+
+  useEffect(() => {
+    axios.get('http://localhost:3000/about')
+      .then(function (response) {
+        console.log(response.data);
+        setabout(response.data)
+      }
+      )
+  }, [])
+
+
+
   return (
     <>
       <section className="sectionAbout row">
-        <div className="col-md-6 d-flex justify-content-between">
-          <div className="bordeNaranja"></div>
-          <div>
-            <img className="imageabout" src={imagenAbout}></img>
-          </div>
-        </div>
+        {about.map((data) => {
 
-        <div className="col-md-6 colum-about">
-          <h2 className="titleAbout">About us</h2>
-          <p className="subtitleAbout">We Help Businesses</p>
-          <p className="text-lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-          <button type="button" className="btn btn-body btn-lg">More info</button>
-        </div>
+          return (<>
+            <div className="col-md-6 d-flex justify-content-between">
+              <div className="bordeNaranja"></div>
+              <div>
+                <img className="imageabout" src={data.url}></img>
+              </div>
+            </div>
+
+            <div className="col-md-6 colum-about">
+              <h2 className="titleAbout">{data.textTitle}</h2>
+              <p className="subtitleAbout">{data.textSubTitle}</p>
+              <p className="text-lorem">{data.textLarge}</p>
+              <button type="button" className="btn btn-body btn-lg">More info</button>
+            </div>
+          </>)
+
+        })
+        }
+
       </section>
     </>
   )
