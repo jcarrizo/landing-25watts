@@ -35,6 +35,18 @@
 width: 594px;;
 }
 
+
+.btn-body-contact{
+	margin-top: 20px;
+  font-size: 18px;
+	background-color: var(--main-bg-color);
+	color: white;
+	border-radius: 25px;
+	opacity: 1;
+	padding: 10px 30px;
+}
+
+
 @media (max-width: 600px) {
 
 
