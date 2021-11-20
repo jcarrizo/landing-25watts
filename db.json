@@ -1,9 +1,21 @@
 {
-  "images": [
+  "images" : [
     {
-      "id": 1,
-      "img": "Hola"      
+      "title": "Nature Image1",
+      "url":
+        "https://i.ibb.co/9hpHLXs/slide1-background-2x.png"
+    },
+    {
+      "title": "Nature Image1",
+      "url":
+        "https://i.ibb.co/b2zY24j/slide2-background-2x.png"
+    },
+    {
+      "title": "Nature Image1",
+      "url":
+        "https://i.ibb.co/JW1RcP2/slide3-background-2x.png"
     }
+
   ]
 
 }

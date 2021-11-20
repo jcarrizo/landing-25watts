@@ -55,3 +55,12 @@ padding: 0px 10px;
 #carouselProducts .carousel-control-prev-icon {
   background-image: url(../../Images/Icon\ awesome-chevron-left.svg);
 }
+
+@media (max-width: 600px) {
+
+  .sub-title-product{
+    font-size: 36px;
+    text-align: center;
+  }
+  
+}

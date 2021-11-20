@@ -51,6 +51,13 @@ width: 128px;
   left: 10%;
 
 }
+.slider-text{
+  margin-left: 400px;
+  position: absolute;
+  display: flex!important;
+  flex-direction: column!important;
+  align-items: flex-start!important;
+}
 
 .fontSlider {
 	width: 750px;
@@ -101,6 +108,15 @@ margin-left: 0% !important;
 	border-radius: 25px;
 	opacity: 1;
 	padding: 10px 40px;
+}
+
+.classSlider{
+  width: 100vh;
+  height: 100vh;
+}
+
+.kKbJSa div {
+  padding: 0px !important;
 }
 
 @media (max-width: 600px) {
