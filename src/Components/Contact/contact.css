@@ -34,3 +34,28 @@
 .imageContact{
 width: 594px;;
 }
+
+@media (max-width: 600px) {
+.columContact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imageContact{
+  width: 400px;
+  display: none;
+  }
+
+  .columna1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .columna2{
+    width: 100%;
+  }
+  
+}

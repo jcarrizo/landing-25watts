@@ -6,7 +6,7 @@ import Image from '../../Images/image@2x.png'
 function Contact() {
   return (<>
     <section className="sectionContact">
-      <div className="row">
+      <div className="row columContact">
         <div className="col-md-6 pe-5 columna1">
           <h2 className="titleAbout">Get in touch</h2>
           <p className="subtitleAbout">We are hiring!</p>

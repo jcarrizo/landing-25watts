@@ -136,6 +136,13 @@ margin-left: 0% !important;
     opacity: 1;
     padding: 10px 40px;
   }
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
   
   
 }
@@ -145,6 +152,13 @@ margin-left: 0% !important;
     display: none;
     visibility: hidden;
   }
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 }
 
 
