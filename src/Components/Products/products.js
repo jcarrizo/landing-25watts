@@ -16,29 +16,11 @@ function Products({ products }) {
                     <div className="d-flex flex-colum justify-content-center mt-5">
                       <div class="card card-Products me-5">
                         <div class="card-body d-flex flex-column  justify-content-center">
-                          <p className="text-products">Aliquam at dui lorem ipsum</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                          <p className="sub-text-products">- Ut feugiat vehicula nibh, efficitur laoreet justo.</p>
-                          <p className="sub-text-products">- Molestie id. Integer varius enim sit amet egestas.</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                        </div>
-                      </div>
-                      <div class="card card-Products me-5">
-                        <div class="card-body d-flex flex-column  justify-content-center">
-                          <p className="text-products">Aliquam at dui lorem ipsum</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                          <p className="sub-text-products">- Ut feugiat vehicula nibh, efficitur laoreet justo.</p>
-                          <p className="sub-text-products">- Molestie id. Integer varius enim sit amet egestas.</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                        </div>
-                      </div>
-                      <div class="card card-Products me-5">
-                        <div class="card-body d-flex flex-column  justify-content-center">
-                          <p className="text-products">Aliquam at dui lorem ipsum</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                          <p className="sub-text-products">- Ut feugiat vehicula nibh, efficitur laoreet justo.</p>
-                          <p className="sub-text-products">- Molestie id. Integer varius enim sit amet egestas.</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
+                          <p className="text-products">{data.textTitleCard}</p>
+                          <p className="sub-text-products">{data.textcard1}</p>
+                          <p className="sub-text-products">{data.textcard2}</p>
+                          <p className="sub-text-products">{data.textcard3}</p>
+                          <p className="sub-text-products">{data.textcard4}</p>
                         </div>
                       </div>
                     </div>
@@ -47,29 +29,24 @@ function Products({ products }) {
                     <div className="d-flex flex-colum justify-content-center mt-5">
                       <div class="card card-Products me-5">
                         <div class="card-body d-flex flex-column  justify-content-center">
-                          <p className="text-products">Aliquam at dui lorem ipsum</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                          <p className="sub-text-products">- Ut feugiat vehicula nibh, efficitur laoreet justo.</p>
-                          <p className="sub-text-products">- Molestie id. Integer varius enim sit amet egestas.</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
+                          <p className="text-products">{data.textTitleCard}</p>
+                          <p className="sub-text-products">{data.textcard1}</p>
+                          <p className="sub-text-products">{data.textcard2}</p>
+                          <p className="sub-text-products">{data.textcard3}</p>
+                          <p className="sub-text-products">{data.textcard4}</p>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div className="d-flex flex-colum justify-content-center mt-5">
                       <div class="card card-Products me-5">
                         <div class="card-body d-flex flex-column  justify-content-center">
-                          <p className="text-products">Aliquam at dui lorem ipsum</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                          <p className="sub-text-products">- Ut feugiat vehicula nibh, efficitur laoreet justo.</p>
-                          <p className="sub-text-products">- Molestie id. Integer varius enim sit amet egestas.</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                        </div>
-                      </div>
-                      <div class="card card-Products me-5">
-                        <div class="card-body d-flex flex-column  justify-content-center">
-                          <p className="text-products">Aliquam at dui lorem ipsum</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
-                          <p className="sub-text-products">- Ut feugiat vehicula nibh, efficitur laoreet justo.</p>
-                          <p className="sub-text-products">- Molestie id. Integer varius enim sit amet egestas.</p>
-                          <p className="sub-text-products">- Ut mattis gravida efficitur.</p>
+                          <p className="text-products">{data.textTitleCard}</p>
+                          <p className="sub-text-products">{data.textcard1}</p>
+                          <p className="sub-text-products">{data.textcard2}</p>
+                          <p className="sub-text-products">{data.textcard3}</p>
+                          <p className="sub-text-products">{data.textcard4}</p>
                         </div>
                       </div>
                     </div>

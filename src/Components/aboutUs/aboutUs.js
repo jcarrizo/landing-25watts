@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
-import imagenAbout from '../../Images/image-1@2x.png'
+import React from 'react'
 import "../aboutUs/aboutUs.css"
 
 function AboutUs({ about }) {

@@ -58,10 +58,54 @@
     {
       "textTitle": "Products",
       "textSubTitle": "In eget tortor tempor mollis purus",
-      "textLarge":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
-
+      "textTitleCard": "Aliquam at dui lorem ipsum",
+      "textcard1": "- Ut mattis gravida efficitur.",
+      "textcard2": "- Ut feugiat vehicula nibh, efficitur laoreet justo.",
+      "textcard3": "- Molestie id. Integer varius enim sit amet egestas.",
+      "textcard4": "- Ut mattis gravida efficitur."
     }
 
+  ],
+  "details" : [
+    {
+      "textTitle": "More details",
+      "textSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem.",
+      "urlanchor":
+      "https://i.ibb.co/vBZ3BCH/Icon-awesome-anchor-2x.png",
+      "texticon": "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper",
+      "urlbook":
+      "https://i.ibb.co/FV1W3PC/Icon-awesome-bookmark-2x.png",
+      "urlbrush":
+      "https://i.ibb.co/XjwHRz7/Icon-awesome-brush-2x.png",
+      "urlbell":
+      "https://i.ibb.co/S3LSy4T/Icon-awesome-bell-2x.png",
+      "urlbandcamp":
+      "https://i.ibb.co/z6Gc1w1/Icon-awesome-bandcamp-2x.png",
+      "urlbox":
+      "https://i.ibb.co/zxsSZwS/Icon-awesome-box-open-2x.png"
+
+    }
+  ],
+
+  "footer" : [
+    {
+      "textTitle": "More details",
+      "textSubTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem.",
+      "urlanchor":
+      "https://i.ibb.co/vBZ3BCH/Icon-awesome-anchor-2x.png",
+      "texticon": "Donec egestas tortor quis turpis finibus vestibulum vel nec ex. Nunc sed velit ullamcorper",
+      "urlbook":
+      "https://i.ibb.co/FV1W3PC/Icon-awesome-bookmark-2x.png",
+      "urlbrush":
+      "https://i.ibb.co/XjwHRz7/Icon-awesome-brush-2x.png",
+      "urlbell":
+      "https://i.ibb.co/S3LSy4T/Icon-awesome-bell-2x.png",
+      "urlbandcamp":
+      "https://i.ibb.co/z6Gc1w1/Icon-awesome-bandcamp-2x.png",
+      "urlbox":
+      "https://i.ibb.co/zxsSZwS/Icon-awesome-box-open-2x.png"
+
+    }
   ]
 
 }

@@ -1,10 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React from 'react'
 import '../Services/services.css'
-import img1 from '../../Images/Icon awesome-globe-americas.svg'
-import img2 from '../../Images/Icon awesome-cloud-upload-alt.svg'
-import img3 from '../../Images/Icon awesome-headset.svg'
-import img4 from '../../Images/Icon awesome-user-friends.svg'
 
 function Services({ services }) {
   return (

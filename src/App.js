@@ -8,15 +8,15 @@ import Details from './Components/Details/details';
 import Contact from './Components/Contact/contact';
 import Footer from './Components/Footer/footer';
 import Hero from './Components/Hero/hero';
+
+
 function App() {
-
   const [hero, setHero] = useState([])
-
   const [about, setAbout] = useState([])
-
   const [services, setServices] = useState([])
-
   const [products, setProducts] = useState([])
+  const [details, setDetails] = useState([])
+  const [footer, setFooter] = useState([])
 
   useEffect(() => {
     axios.get('http://localhost:3000/hero')
@@ -36,6 +36,15 @@ function App() {
       .then(function (response) {
         setProducts(response.data)
       })
+    axios.get('http://localhost:3000/details')
+      .then(function (response) {
+        setDetails(response.data)
+      })
+
+    axios.get('http://localhost:3000/footer')
+      .then(function (response) {
+        setFooter(response.data)
+      })
   }, [])
 
   return (
@@ -44,9 +53,9 @@ function App() {
       <AboutUs about={about}></AboutUs>
       <Services services={services}></Services>
       <Products products={products}></Products>
-      <Details></Details>
+      <Details details={details}></Details>
       <Contact></Contact>
-      <Footer></Footer>
+      <Footer footer={footer}></Footer>
     </>
   );
 }

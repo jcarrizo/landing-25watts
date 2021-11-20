@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React from 'react'
 import Slider from 'react-touch-drag-slider'
-import styled, { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 import '../Hero/hero.css'
-import image from "../../Images/slide1-background@2x.png"
-import image2 from "../../Images/slide2-background@2x.png"
-import image3 from "../../Images/slide3-background@2x.png"
 import logo from "../../Images/logo_25w.svg"
 
 // json-server --watch db.json
