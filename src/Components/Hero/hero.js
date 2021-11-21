@@ -8,7 +8,6 @@ import logo from "../../Images/logo_25w.svg"
 
 function Hero({ hero }) {
 
-  // The slider will fit any size container, lets go full screen...
   const AppStyles = styled.main`
   height: 100vh;
   width: 100%;

@@ -1,0 +1,5 @@
+Para correr el proyecto:
+
+Primero ejecutar el comando npm i
+Segundo ejecutar el comando json-server --watch db.json.
+Tercero el npm start 
